@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "proxy-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3",
+    "node-fetch": "^3.3.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
